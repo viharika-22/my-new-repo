@@ -18,7 +18,6 @@ const componentNames = {
   "grid-lights": "GridLights",
   "column-table": "ColumnTable",
   "todo-list": "TodoList",
-  "todo-list-1": "TodoList",
   "stopwatch": "Stopwatch",
   "quiz-app": "QuizApp",
   "chess-board": "ChessBoard",

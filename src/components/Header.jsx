@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return (
     <div>
-      <h2><i>ByteTasks</i></h2>
+      <h2>ByteTasks</h2>
     </div>
   )
 }
