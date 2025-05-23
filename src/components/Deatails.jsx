@@ -24,6 +24,7 @@ function Deatails() {
   const ComponentToRender = componentsMap[decodedTitle];
 
   if (!ComponentToRender) {
+    console.log("Looking for component:", decodedTitle);
     return (
       <NotFoundFallback />
     );
@@ -35,9 +36,9 @@ function Deatails() {
 
   return (
     <Suspense fallback={<Loader />}>
-      <div style={styles.container}>
+      {/* <div style={styles.container}> */}
         <ComponentToRender />
-      </div>
+      {/* </div> */}
     </Suspense>
   );
 }

@@ -7,7 +7,7 @@ function Card() {
   const navigate = useNavigate();
 
   const handleClick = (title) => {
-    const encodedTitle = encodeURIComponent(title.toLowerCase());
+ const encodedTitle = encodeURIComponent(title.toLowerCase().replace(/\s+/g, '-'));
     navigate(`/details/${encodedTitle}`);
   };
 
